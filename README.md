@@ -6,7 +6,6 @@
 
 # Ultimos Commits
 <!--RECENT_ACTIVITY:start-->
-
 <!--RECENT_ACTIVITY:last_update-->
 
 # 💻 Tech Stack:
