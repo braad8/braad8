@@ -13,6 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4.2.2
       
-      - uses: manueldevjour/github-activity-readme@v1.0.2
+      - uses: Readme-Workflows/recent-activity@v2.4.1
+        with:
+          CONFIG_FILE: ./.github/workflows/update_readme.yml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
